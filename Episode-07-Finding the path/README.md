@@ -34,8 +34,8 @@
   - Outlet is like a tunnel in which children of Component(Like:AppLayout) come over in this according to the path and filled in Outlet.
 
   - when you are using React and you want to route some other page ,never ever use the anchor tag(because it reloads the page ).
-  - so always use Link Component which is also a super power Component provided by react-router-dom.Link tag exacty works as anchor
-  - tag but it does not reload the page again(directly reach to that link page) which is a good thing.we write to instead of href in Link tag.
+   so always use Link Component which is also a super power Component provided by react-router-dom.Link tag exacty works as anchor
+    tag but it does not reload the page again(directly reach to that link page) which is a good thing.we write to instead of href in Link tag.
 
 
 ## 2 Types of Routing in Web Apps
