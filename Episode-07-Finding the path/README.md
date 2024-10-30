@@ -20,10 +20,10 @@
 
 ## 
    - Always call your Hooks(useState,useEffect) in the component.
-     - useState has its own purpose ,it is used to create local state variables inside functional component.
-  - Always try to use Hooks above(higher level or first level) in the functional component.
-  - never use Hooks in if-else.
-  - never use Hooks inside the for loop.
+   - useState has its own purpose ,it is used to create local state variables inside functional component.
+   - Always try to use Hooks above(higher level or first level) in the functional component.
+   - never use Hooks in if-else.
+   - never use Hooks inside the for loop.
 
 ##
   - rafce provides automatically a component.
@@ -47,7 +47,6 @@
 
   ## What would happen if we do console.log(useState())?
 
-        
     Using console.log(useState()) in a React component will display the result of invoking the useState hook without any arguments. 
     useState is a Hook that lets you add React state to function components.
 
@@ -95,8 +94,8 @@
      rather than loading entire new pages from the server. This approach avoids interruption of the user experience between successive pages, 
      making the application behave more like a desktop application.
 
-  Characteristics of SPAs
-            User Experience (UX): SPAs offer a more fluid and faster experience, as users do not see the page reloads that typically 
+ -     Characteristics of SPAs
+              User Experience (UX): SPAs offer a more fluid and faster experience, as users do not see the page reloads that typically 
             occur in a traditional web application. Interactions are smoother, which can lead to a perception of a faster site and a more app-like experience.
             AJAX: SPAs heavily rely on AJAX (Asynchronous JavaScript and XML) to fetch data from the server. Only data, not HTML, is exchanged with
             the server, which means pages do not need to be reloaded from scratch.
@@ -113,37 +112,37 @@
     
   Server-Side Routing :
 
-  Definition:
+ -     Definition:
             Server-side routing is the traditional way of handling routing in web applications. Every time a user requests a new page, the browser makes a request to the server, and the server responds with a new 
             document. This process involves a full page refresh.
- Performance: 
+-     Performance: 
             Initially, it can be slower for the user, especially on slower networks, because each navigation requires a round trip to the server, and the entire page must be reloaded.
- SEO Optimization: 
+-     SEO Optimization: 
             It is inherently SEO-friendly because each page is a new document from the server, making it easier for search engines to crawl and index them.
- Scalability: 
+-     Scalability: 
              Handling routing on the server can be more demanding on server resources, especially with a large number of requests.
- User Experience: 
+-     User Experience: 
             Users may experience a flicker or delay as the entire page reloads with each navigation.
-   Examples of Use:
+-     Examples of Use:
              Traditional multi-page applications (MPAs) where each page is a separate HTML document.
 
 
   Client-Side Routing
 
-  Definition: 
+  -     Definition: 
                Client-side routing is a modern approach used primarily in single-page applications (SPAs). 
                It leverages JavaScript to manage routing. When a user navigates to a different part of the application,
                no request is made to the server for a new page. Instead, the current page is dynamically updated to display new content,
                usually leveraging frameworks/libraries like React, Vue, or Angular.
-  Performance:
+ -     Performance:
                 It can offer a faster and smoother experience after the initial load, as only the necessary content is updated, and there's no full page refresh.
-   SEO Optimization: 
+ -     SEO Optimization: 
                  Traditionally seen as less SEO-friendly, although advancements and practices such as server-side rendering (SSR) and static site generation (SSG) have significantly improved SEO capabilities of SPAs.
-   Scalability: 
+ -     Scalability: 
                 Less taxing on the server after the initial load, as most resources (HTML, CSS, JavaScript) are loaded once. Subsequent navigations require minimal to no server communication.
-     User Experience: 
+ -     User Experience: 
                 Provides a smoother and more app-like experience, as there's no full page reload. Transitions between pages can be animated, improving perceived performance.
-      Examples of Use:
+  -     Examples of Use:
                 Single-page applications (SPAs) where the application runs within a single HTML document, and content is dynamically changed through JavaScript.
 
    Key Differences
