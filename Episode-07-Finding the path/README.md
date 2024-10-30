@@ -31,7 +31,7 @@
   - RouterProvider provides routing configuration to our App.
   - react-router-dom provides a Hook which is useRouteError(provides more generic Error) in terms of Error.
 
-  - Outlet is like a tunnel in which children of AppLayout come over in this according to the path and filled in Outlet.
+  - Outlet is like a tunnel in which children of Component(Like:AppLayout) come over in this according to the path and filled in Outlet.
 
   - when you are using React and you want to route some other page ,never ever use the anchor tag(because it reloads the page ).
   - so always use Link Component which is also a super power Component provided by react-router-dom.Link tag exacty works as anchor
